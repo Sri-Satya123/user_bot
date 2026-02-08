@@ -22,7 +22,7 @@ class homepage extends StatelessWidget {
       children: [
         Text(
           "Ask me anything users! 👤",
-          style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
         ),
         SizedBox(height: 20),
         Container(height: 400, child: UserBot()),
